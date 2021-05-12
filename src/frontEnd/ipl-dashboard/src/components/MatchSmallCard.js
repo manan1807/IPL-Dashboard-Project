@@ -10,6 +10,7 @@ import {Link} from 'react-router-dom'
     return (
     <div className="MatchSmallCard">
        <h3> vs  <Link to= {otherTeamsRoute}> {otherTeam}</Link></h3>
+       <p>{match.date}</p>
        <p>{match.matchWinner} won by {match.resultMargin} {match.result}</p>
 
     </div> 
